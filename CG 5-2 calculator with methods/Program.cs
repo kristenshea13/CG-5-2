@@ -32,14 +32,21 @@ namespace CG_5_2_calculator_with_methods
             Console.Write("Would you like to add, subtract, multiply, or divide these two numbers? Please choose one: ");
             string mathFunction = Console.ReadLine();
 
-            if (mathFunction == "add")
-                Console.WriteLine($"Answer: {AddAnswer(firstNumber, secondNumber)}");
+            if (secondNumber == 0 && mathFunction == "divide")
+            {
+                Console.WriteLine("Error");
+                Console.ReadLine();
+                return;
+            }
 
-            else if (mathFunction == "subtract")
-                Console.WriteLine($"Answer: {SubtractAnswer(firstNumber, secondNumber)}");
+            
 
-            else if (mathFunction == "multiply")
-                Console.WriteLine($"Answer: {MultiplyAnswer(firstNumber, secondNumber)}");
+
+                Console.WriteLine("Answer: {0}", 
+                    AddAnswer(firstNumber, secondNumber), 
+                    SubtractAnswer(firstNumber, secondNumber), 
+                    MultiplyAnswer(firstNumber, secondNumber), 
+                    DivideAnswer(firstNumber, secondNumber));
 
 
             Console.ReadLine();
@@ -67,13 +74,9 @@ namespace CG_5_2_calculator_with_methods
 
         private static int DivideAnswer(int firstNumber, int secondNumber)
         {
-            if (secondNumber > 0)
-            {
-                int divideMath = firstNumber / secondNumber
-                return divideMath;
-            }
-
-            
+            int divideMath = firstNumber / secondNumber;
+            return divideMath;
+                 
         }
 
     }

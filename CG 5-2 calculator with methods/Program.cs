@@ -52,6 +52,11 @@ namespace CG_5_2_calculator_with_methods
                 Console.WriteLine("Answer: {0}",
                     DivideAnswer(firstNumber, secondNumber));
 
+            //else statement as a catch all error if user enters something other than add, subtract, multiply, or divide
+
+            else
+                Console.WriteLine("Invalid function");
+
             Console.ReadLine();
 
         }

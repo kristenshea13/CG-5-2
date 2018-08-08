@@ -64,8 +64,8 @@ namespace CG_5_2_calculator_with_methods
         /// <summary>
         /// add two user input numbers together
         /// </summary>
-        /// <param name="firstNumber"></param>
-        /// <param name="secondNumber"></param>
+        /// <param name="firstNumber">first user input number</param>
+        /// <param name="secondNumber">second user input number</param>
         /// <returns>the answer to two user input numbers added together</returns>
         private static int AddAnswer(int firstNumber, int secondNumber)
           {///
@@ -77,8 +77,8 @@ namespace CG_5_2_calculator_with_methods
         /// <summary>
         /// subtract second user input number from first
         /// </summary>
-        /// <param name="firstNumber"></param>
-        /// <param name="secondNumber"></param>
+        /// <param name="firstNumber">first user input number</param>
+        /// <param name="secondNumber">second user input number</param>
         /// <returns>the answer to first number minus second number</returns>
         private static int SubtractAnswer(int firstNumber, int secondNumber)
         {///
@@ -89,8 +89,8 @@ namespace CG_5_2_calculator_with_methods
         /// <summary>
         /// multiply the two user input numbers together
         /// </summary>
-        /// <param name="firstNumber"></param>
-        /// <param name="secondNumber"></param>
+        /// <param name="firstNumber">first user input number</param>
+        /// <param name="secondNumber">second user input number</param>
         /// <returns>answer to first number multiplied by second number</returns>
         private static int MultiplyAnswer(int firstNumber, int secondNumber)
         {///
@@ -101,8 +101,8 @@ namespace CG_5_2_calculator_with_methods
         /// <summary>
         /// divide first user input number by second
         /// </summary>
-        /// <param name="firstNumber"></param>
-        /// <param name="secondNumber"></param>
+        /// <param name="firstNumber">first user input number</param>
+        /// <param name="secondNumber">second user input number</param>
         /// <returns>answer to first number divided by second number</returns>
         private static int DivideAnswer(int firstNumber, int secondNumber)
         {///

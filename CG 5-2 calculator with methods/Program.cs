@@ -20,7 +20,7 @@ namespace CG_5_2_calculator_with_methods
              * allow for decimal places in variable entries and answer. i skipped separate line of code to declare variable 
              * as a string and just converted user entry to decimal all on one line of code*/
 
-            
+
             Console.Write("Enter first number: ");
             decimal firstNumber = decimal.Parse(Console.ReadLine());
 
@@ -31,11 +31,27 @@ namespace CG_5_2_calculator_with_methods
             Console.Write("Would you like to add, subtract, multiply, or divide these two numbers? Please choose one: ");
             string mathFunction = Console.ReadLine();
 
+            if (mathFunction == "add")
+            {
+
+            }
+
+            else if (mathFunction == "subtract")
+            {
+
+            }
+
 
 
         }
 
+        private decimal AddAnswer(decimal firstNumber, decimal secondNumber)
+          {
+             decimal addAnswer = firstNumber + secondNumber;
+             //return 
+          }
 
+            
 
 
 

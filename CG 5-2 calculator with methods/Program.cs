@@ -67,7 +67,13 @@ namespace CG_5_2_calculator_with_methods
 
         private static int DivideAnswer(int firstNumber, int secondNumber)
         {
+            if (secondNumber > 0)
+            {
+                int divideMath = firstNumber / secondNumber
+                return divideMath;
+            }
 
+            
         }
 
     }

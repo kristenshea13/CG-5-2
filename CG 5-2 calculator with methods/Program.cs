@@ -81,7 +81,8 @@ namespace CG_5_2_calculator_with_methods
         /// <param name="secondNumber">second user input number</param>
         /// <returns>the answer to first number minus second number</returns>
         private static int SubtractAnswer(int firstNumber, int secondNumber)
-        {///
+        {
+            //can combine on one line, see multiply or divide methods for ex
             int subtractionMath = firstNumber - secondNumber;
             return subtractionMath;
         }
@@ -94,8 +95,8 @@ namespace CG_5_2_calculator_with_methods
         /// <returns>answer to first number multiplied by second number</returns>
         private static int MultiplyAnswer(int firstNumber, int secondNumber)
         {///
-            int multiplyMath = firstNumber * secondNumber;
-            return multiplyMath;
+            //int multiplyMath = firstNumber * secondNumber;
+            return firstNumber * secondNumber;
         }
 
         /// <summary>
@@ -105,9 +106,10 @@ namespace CG_5_2_calculator_with_methods
         /// <param name="secondNumber">second user input number</param>
         /// <returns>answer to first number divided by second number</returns>
         private static int DivideAnswer(int firstNumber, int secondNumber)
-        {///
-            int divideMath = firstNumber / secondNumber;
-            return divideMath;
+        {
+
+            //int divideMath = firstNumber / secondNumber;
+            return firstNumber / secondNumber;
                  
         }
 
